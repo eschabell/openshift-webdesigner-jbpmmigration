@@ -13,7 +13,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbossas-7.0 application
 
-    rhc-create-app -l $username -a editor -t jbossas-7.0
+    rhc app create -a editor -t jbossas-7.0
 
 Add this upstream openshift-webdesigner-jbpmmigration repo
 
