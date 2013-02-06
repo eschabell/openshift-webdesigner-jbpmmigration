@@ -13,18 +13,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbossas-7.0 application
 
-    rhc app create -a editor -t jbossas-7.0
-
-Add this upstream openshift-webdesigner-jbpmmigration repo
-
-    cd editor
-    git remote add upstream -m master git://github.com/eschabell/openshift-webdesigner-jbpmmigration.git
-    git pull -s recursive -X theirs upstream master
-    # note that the git pull above can be used later to pull updates to jbpmmigration
-    
-Then push the repo upstream
-
-    git push
+    rhc app create -a editor -t jbossas-7.0 --from-code git://github.com/eschabell/openshift-webdesigner-jbpmmigration.git
 
 That's it, you can now checkout your application at:
 
