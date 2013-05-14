@@ -26,3 +26,7 @@ used to test your installation:
 
 http://www.schabell.org/2011/10/jbpm-web-designer-integrates-jbpm.html
 
+Releases
+---------
+
+- v1.0 running on JBoss AS 7, standalone web process designer 2.0.
