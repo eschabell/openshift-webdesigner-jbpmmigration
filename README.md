@@ -6,14 +6,9 @@ This git repository helps you get up and running quickly with the jBPM
 Migration Tooling as integrated with the Web Designer.
 
 
-Running on OpenShift
+Install with one click
 ----------------------
-
-Create an account at http://openshift.redhat.com/
-
-Create a jbossas-7.0 application
-
-    rhc app create -t jbossas-7 --from-code git://github.com/eschabell/openshift-webdesigner-jbpmmigration.git editor
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=jbossas-7&initial_git_url=https://github.com/eschabell/openshift-webdesigner-jbpmmigration.git&name=editor)
 
 That's it, you can now checkout your application at:
 
