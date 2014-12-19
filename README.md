@@ -8,7 +8,7 @@ Migration Tooling as integrated with the Web Designer.
 
 Install with one click
 ----------------------
-[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=jbossas-7&initial_git_url=https://github.com/eschabell/openshift-webdesigner-jbpmmigration.git&name=editor)
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=jbossas-7&initial_git_url=https://github.com/eschabell/openshift-webdesigner-jbpmmigration.git&name=editor)
 
 That's it, you can now checkout your application at:
 
